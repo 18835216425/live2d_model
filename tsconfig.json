@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    // "declaration": true,
+    // "declarationMap": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": [
+    "src/framework/**/*.ts",
+    "src/framework/*.ts",
+    "src/live2d/*.ts",
+    "src/framework/live2dcubismcore.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
